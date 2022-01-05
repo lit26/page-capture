@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+  
+    "name": "Page Capture",
+    "description": "This extension getting page content by clicking the chrome extension and send to backend for futher analysis.",
+    "version": "1.0",
+    "icons": {},
+  
+    "browser_action": {
+      "default_popup": "popup.html"
+    },
+  
+    "background": {
+      "scripts": ["background.js"]
+    },
+  
+    "permissions": [
+      "tabs",
+      "<all_urls>"
+    ]
+  }
